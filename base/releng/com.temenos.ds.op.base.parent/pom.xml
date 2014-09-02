@@ -16,7 +16,7 @@
 	<repositories>
 		<!-- NOTE: Careful #1 - when adding new features in category.xml, make sure you're NOT on a mirror in settings.xml which doesn't contain that yet, and NOT offline -->
 		<!-- NOTE: Careful #2 - when adding a new <repository> here, consider adding a <mirror> in settings.xml, too. -->
-		
+
 <!--
 		<repository>
 			<id>base.repomirror</id>
@@ -24,7 +24,7 @@
 			<url>file://${basedir}/../../../mirror</url>
 		</repository>
 -->
-		<!-- WHATEVER YOU ADD BELOW MUST BE IN /mirror-pom.xml AS WELL --> 
+		<!-- WHATEVER YOU ADD BELOW MUST BE IN /mirror-pom.xml AS WELL -->
 		<repository>
 			<id>p2.eclipse.luna</id>
 			<layout>p2</layout>
@@ -54,19 +54,22 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/egit/updates-nightly</url>
 		</repository>
+
 		<repository>
-			<id>p2.eclipse.emf.compare</id>
+			<id>p2.eclipse.emf.compare.v1.3</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/modeling/emf/compare/updates/releases/</url>
+			<url>http://download.eclipse.org/modeling/emf/compare/updates/releases/1.3/R20130213-0806/</url>
 		</repository>
+
 		<repository>
+
 			<id>p2.eclipse.orbit-R20140525021250</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/</url>
 		</repository>
-			<!-- req. for org.eclipse.e4.core.tools in /*.base.sdk.repository/category.xml -->
-	<!-- Not working... :-( <repository> <id>vogella-e4tools-luna</id> <layout>p2</layout> 
-		<url>http://download.vogella.com/luna/e4tools</url> </repository> -->
+		<!-- req. for org.eclipse.e4.core.tools in /*.base.sdk.repository/category.xml -->
+		<!-- Not working... :-( <repository> <id>vogella-e4tools-luna</id> <layout>p2</layout> 
+			<url>http://download.vogella.com/luna/e4tools</url> </repository> -->
 	</repositories>
 
 	<build>

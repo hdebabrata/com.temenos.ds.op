@@ -42,8 +42,12 @@
       <import feature="org.eclipse.mylyn.github.feature"/>
       <import feature="org.eclipse.egit.mylyn"/>
       <import feature="org.eclipse.recommenders.rcp.feature"/>
-      <import feature="org.eclipse.emf.compare"/>
-      <import feature="org.eclipse.emf.compare.source"/>
+<!--
+      <import feature="org.eclipse.emf.compare" version="3.0.0" match="equivalent"/>
+      <import feature="org.eclipse.emf.compare.source" version="3.0.0" match="equivalent">
+-->
+      <import feature="org.eclipse.emf.compare" version="1.3.3" match="equivalent"/>
+      <import feature="org.eclipse.emf.compare.sdk" version="1.3.3" match="equivalent"/>
       <import feature="org.eclipse.emf.eson.tests.feature"/>
       <import feature="org.eclipse.pde.api.tools.ee.feature"/>
       <import plugin="com.google.guava.source"/>
