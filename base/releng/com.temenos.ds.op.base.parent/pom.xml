@@ -65,6 +65,11 @@
 			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository/</url>
 		</repository>
 		<repository>
+			<id>p2.eclipse.orbit-S20140917154621</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/S20140917154621/repository/</url>
+		</repository>
+		<repository>
 			<id>findbugs</id>
 			<layout>p2</layout>
 			<url>http://download.jboss.org/jbosstools/updates/requirements/findbugs/3.0.0.20140706-2cfb468/</url>

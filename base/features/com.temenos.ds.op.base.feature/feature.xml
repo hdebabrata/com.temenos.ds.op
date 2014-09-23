@@ -33,6 +33,8 @@
       <import plugin="org.slf4j.jul" version="1.7.2" />
       <import plugin="org.slf4j.jcl" version="1.7.2" />
       <import feature="org.eclipse.emf.eson.ui.feature"/>
+      <import plugin="org.dom4j" version="1.6.1" />
+      <import plugin="org.apache.poi" version="3.9.0" />
    </requires>
 
 </feature>
