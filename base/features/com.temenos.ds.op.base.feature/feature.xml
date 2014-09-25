@@ -39,6 +39,7 @@
       <import plugin="org.apache.xalan" version="2.7.1" />
       <import plugin="javax.mail" version="1.4.0" />
       <import plugin="javax.mail.glassfish" version="1.4.1" />
+      <import plugin="org.eclipse.ocl.ecore"/>
    </requires>
 
 </feature>
