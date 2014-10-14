@@ -94,6 +94,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/modeling/mdt/ocl/updates/releases/5.0.1/</url>
 		</repository>
+		<repository>
+			<id>org.drools.eclipse-5.5.0</id>
+			<layout>p2</layout>
+			<url>http://download.jboss.org/drools/release/5.5.0.Final/org.drools.updatesite/</url>
+		</repository>
 			<!-- req. for org.eclipse.e4.core.tools in /*.base.sdk.repository/category.xml -->
 	<!-- Not working... :-( <repository> <id>vogella-e4tools-luna</id> <layout>p2</layout> 
 		<url>http://download.vogella.com/luna/e4tools</url> </repository> -->
