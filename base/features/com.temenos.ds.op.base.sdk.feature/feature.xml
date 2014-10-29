@@ -64,6 +64,7 @@
 	  <import feature="org.eclipse.ocl.all.sdk.source"/>
 	  <import feature="org.eclipse.ocl.all.sdk"/>
 	  <import feature="org.drools.eclipse.feature"/>
+	  <import feature="org.eclipse.gmf.sdk"/>
    </requires>
 
 </feature>
