@@ -99,6 +99,11 @@
 			<layout>p2</layout>
 			<url>http://download.jboss.org/drools/release/5.5.0.Final/org.drools.updatesite/</url>
 		</repository>
+		<repository>
+			<id>org.eclipse.gmf-3.2.0</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/modeling/gmp/updates/releases/</url>
+		</repository>
 			<!-- req. for org.eclipse.e4.core.tools in /*.base.sdk.repository/category.xml -->
 	<!-- Not working... :-( <repository> <id>vogella-e4tools-luna</id> <layout>p2</layout> 
 		<url>http://download.vogella.com/luna/e4tools</url> </repository> -->
