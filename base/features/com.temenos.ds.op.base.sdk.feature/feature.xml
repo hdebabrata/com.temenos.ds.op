@@ -65,6 +65,14 @@
 	  <import feature="org.eclipse.ocl.all.sdk"/>
 	  <import feature="org.drools.eclipse.feature"/>
 	  <import feature="org.eclipse.gmf.sdk"/>
+	  <import feature="org.eclipse.sirius.runtime"/>
+	  <import feature="org.eclipse.sirius.specifier.ide.ui"/>
+	  <import feature="org.eclipse.sirius.specifier.ide.ui.acceleo"/>
+	  <import feature="org.eclipse.sirius.runtime.ocl"/>
+	  <import feature="org.eclipse.sirius.runtime.ide.ui"/>
+	  <import feature="org.eclipse.emf.ecore.xcore"/>
+	  <import feature="org.eclipse.emf.ecore.xcore.sdk"/>
+	  <import feature="org.eclipse.emf.ecore.xcore.ui"/>
    </requires>
 
 </feature>
